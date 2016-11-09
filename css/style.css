@@ -84,55 +84,91 @@ margin-right: 20px;
 }
 
 .main-navigation {
-  float: left;
-width:540px;
+  display: inline-block;
+  margin-right: 20px;
+  height: 70px;
+  width:540px;
   /*width: 780px;*/
   /* Только для оформления сетки */
   min-height: 70px;
 
-
+}
+.main-navigation li {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  vertical-align: top;
+  width:auto;
+  height: auto;
 }
 
 .user-block {
   float: right;
-
   width: 140px;
+  
 
   /* Только для оформления сетки */
   min-height: 70px;
 }
 
 .breadcrumb {
-width:300px;
+width:320px;
+margin-top: 30px;
+margin-bottom: 60px;
 
 }
+.breadcrumb li {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  vertical-align: top;
+  width:auto;
+  height: auto;
+
+}
+
+
 .filter {
   width:160px;
-float: left;
-margin-right: 40px;
+  float: left;
+  margin-right: 40px;
 
 }
 
 .catalog {
-width: 720px;
-float: left;
+  width: 720px;
+  float: left;
 
 }
 
 .products {
-display: inline-block;
-width:220px;
-height: 287px;
-background-color: white;
-margin-bottom: 20px;
-margin-right: 20px;
-vertical-align: top;
+  display: inline-block;
+  width:220px;
+  height: 287px;
+  background-color: white;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  vertical-align: top;
 
-}
+         }
 .item:nth-child(3n) {
     margin-right: 0;
 }
 
+.pages {
+  width:auto;
+  height: auto;
+  padding:45px;
+}
+.pages li {
+  display: inline-block;
+  text-align: center;
+  padding: 7px;
+  vertical-align: top;
+  width:43px;
+  height: 43px;
+
+}
 
 
 .main-footer {
@@ -224,7 +260,7 @@ padding-bottom: 40px;
 /*======================================
  Системное оформление - не изменять
 =======================================*/
-
+/*
 body {
   padding: 3px;
 }
